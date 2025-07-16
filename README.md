@@ -2,6 +2,8 @@
 
 A responsive, single-page website template for showcasing academic research papers. Built with modern web technologies and optimized for GitHub Pages deployment.
 
+**[View Live Demo →](https://stbiadmin.github.io/papersite-template/)**
+
 ![Website Preview](assets/images/front_page.png)
 
 ## Features

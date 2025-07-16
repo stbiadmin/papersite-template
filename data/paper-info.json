@@ -1,0 +1,40 @@
+{
+  "title": "Advanced Neural Architecture for Computer Vision Tasks",
+  "subtitle": "A novel approach to improving accuracy and efficiency in image recognition",
+  "authors": [
+    {
+      "name": "Dr. Sarah Chen",
+      "affiliation": "Stanford University",
+      "website": "https://example.com/sarah-chen",
+      "email": "sarah.chen@stanford.edu"
+    },
+    {
+      "name": "Prof. Michael Rodriguez",
+      "affiliation": "MIT Computer Science",
+      "website": "https://example.com/michael-rodriguez",
+      "email": "mrodriguez@mit.edu"
+    },
+    {
+      "name": "Dr. Emily Watson",
+      "affiliation": "Stanford University",
+      "website": "",
+      "email": "emily.watson@stanford.edu"
+    }
+  ],
+  "abstract": "We present a novel neural architecture that significantly improves performance on computer vision tasks while maintaining computational efficiency. Our approach combines attention mechanisms with hierarchical feature extraction to achieve state-of-the-art results on multiple benchmark datasets. The proposed method demonstrates superior accuracy compared to existing approaches while requiring 40% fewer computational resources during inference.",
+  "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+  "publicationDate": "2024-12-15",
+  "doi": "10.1000/182",
+  "arxivId": "2024.12345",
+  "pdfUrl": "https://example.com/paper.pdf",
+  "codeUrl": "https://github.com/example/neural-architecture",
+  "bibtex": "@inproceedings{chen2024advanced,\n  title={Advanced Neural Architecture for Computer Vision Tasks},\n  author={Chen, Sarah and Rodriguez, Michael and Watson, Emily},\n  booktitle={Conference on Neural Information Processing Systems},\n  year={2024}\n}",
+  "keyContributions": [
+    "Novel attention-based neural architecture with 15% improved accuracy",
+    "40% reduction in computational requirements during inference",
+    "State-of-the-art results on ImageNet, CIFAR-10, and COCO datasets"
+  ],
+  "datasetUrl": "https://example.com/dataset",
+  "supplementaryUrl": "https://example.com/supplementary",
+  "slidesUrl": "https://example.com/slides"
+}

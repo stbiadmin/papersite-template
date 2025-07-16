@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "title": "Original vs Enhanced Comparison",
+      "description": "Side-by-side comparison showing the improvement achieved by our neural architecture on image classification tasks.",
+      "src": "assets/images/result-comparison-1.jpg",
+      "placeholder": "assets/images/placeholder-result-1.jpg",
+      "alt": "Comparison showing original image classification results versus enhanced results",
+      "category": "comparison"
+    },
+    {
+      "title": "Attention Mechanism Visualization",
+      "description": "Heatmap visualization demonstrating how our attention mechanism focuses on relevant image regions for improved accuracy.",
+      "src": "assets/images/result-attention-viz.jpg",
+      "placeholder": "assets/images/placeholder-result-2.jpg",
+      "alt": "Attention mechanism heatmap overlay on sample images",
+      "category": "visualization"
+    },
+    {
+      "title": "Performance Benchmarks",
+      "description": "Comprehensive performance comparison across multiple datasets showing consistent improvements in accuracy and efficiency.",
+      "src": "assets/images/result-benchmarks.jpg",
+      "placeholder": "assets/images/placeholder-result-3.jpg",
+      "alt": "Bar charts and graphs showing performance benchmarks across different datasets",
+      "category": "metrics"
+    },
+    {
+      "title": "Real-world Application Results",
+      "description": "Examples of our method applied to real-world scenarios, demonstrating practical effectiveness and robustness.",
+      "src": "assets/images/result-realworld.jpg",
+      "placeholder": "assets/images/placeholder-result-4.jpg",
+      "alt": "Real-world application examples showing practical results",
+      "category": "application"
+    },
+    {
+      "title": "Architecture Diagram",
+      "description": "Detailed visualization of our novel neural architecture highlighting key components and data flow.",
+      "src": "assets/images/result-architecture.jpg",
+      "placeholder": "assets/images/placeholder-result-5.jpg",
+      "alt": "Neural network architecture diagram with labeled components",
+      "category": "technical"
+    },
+    {
+      "title": "Computational Efficiency Analysis",
+      "description": "Analysis showing 40% reduction in computational requirements while maintaining superior accuracy compared to baseline methods.",
+      "src": "assets/images/result-efficiency.jpg",
+      "placeholder": "assets/images/placeholder-result-6.jpg",
+      "alt": "Charts showing computational efficiency improvements and resource usage comparison",
+      "category": "metrics"
+    }
+  ]
+}

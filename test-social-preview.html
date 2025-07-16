@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Preview Test</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .preview-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .meta-tag {
+            background: #e8f4f8;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 4px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        .test-link {
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+            padding: 10px 15px;
+            background: #0070f3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        .test-link:hover {
+            background: #005cc5;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .instructions {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status-warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .preview-image {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+        .tag {
+            background: #e1f5fe;
+            color: #0277bd;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        .checklist-item input {
+            margin-right: 10px;
+        }
+        .tabs {
+            display: flex;
+            margin: 20px 0 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-bottom: none;
+            border-radius: 4px 4px 0 0;
+            margin-right: 5px;
+            background: #f1f1f1;
+        }
+        .tab.active {
+            background: white;
+            border-color: #ddd;
+            font-weight: 500;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-top: none;
+            background: white;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .copy-btn {
+            background: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .copy-btn:hover {
+            background: #e1e1e1;
+        }
+        .back-link {
+            display: inline-block;
+            margin: 20px 0;
+            color: #0070f3;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .result-preview {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            background: white;
+        }
+        .social-preview {
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .social-preview-image {
+            width: 100%;
+            height: 260px;
+            background-color: #f1f1f1;
+            background-image: url('assets/images/placeholder-result-1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .social-preview-content {
+            padding: 15px;
+        }
+        .social-preview-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin: 0 0 5px;
+        }
+        .social-preview-description {
+            font-size: 14px;
+            color: #555;
+            margin: 0 0 5px;
+        }
+        .social-preview-url {
+            font-size: 12px;
+            color: #777;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Media Preview Test</h1>
+    
+    <a href="index.html" class="back-link">← Back to Academic Paper Website</a>
+    
+    <div class="instructions">
+        <h3>How to Test Social Media Previews:</h3>
+        <p>Use the links below to test how your academic paper website appears when shared on social media platforms:</p>
+        <ol>
+            <li>Copy the URL of your main website (index.html)</li>
+            <li>Paste it into the testing tools below</li>
+            <li>Check that the title, description, and image appear correctly</li>
+            <li>Use the live preview below to see how your content will appear on different platforms</li>
+        </ol>
+    </div>
+
+    <div class="preview-section">
+        <h2>Live Preview Simulation</h2>
+        <p>This is how your academic paper website will likely appear when shared on social media:</p>
+        
+        <div class="tabs">
+            <div class="tab active" data-tab="facebook">Facebook</div>
+            <div class="tab" data-tab="twitter">Twitter</div>
+            <div class="tab" data-tab="linkedin">LinkedIn</div>
+        </div>
+        
+        <div class="tab-content active" id="facebook-tab">
+            <div class="social-preview">
+                <div class="social-preview-image"></div>
+                <div class="social-preview-content">
+                    <h3 class="social-preview-title">Advanced Neural Architecture for Computer Vision Tasks</h3>
+                    <p class="social-preview-description">A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.</p>
+                    <p class="social-preview-url">example.com/neural-architecture</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="twitter-tab">
+            <div class="social-preview">
+                <div class="social-preview-image"></div>
+                <div class="social-preview-content">
+                    <h3 class="social-preview-title">Advanced Neural Architecture for Computer Vision Tasks</h3>
+                    <p class="social-preview-description">A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.</p>
+                    <p class="social-preview-url">example.com/neural-architecture</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="linkedin-tab">
+            <div class="social-preview">
+                <div class="social-preview-image"></div>
+                <div class="social-preview-content">
+                    <h3 class="social-preview-title">Advanced Neural Architecture for Computer Vision Tasks</h3>
+                    <p class="social-preview-description">A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.</p>
+                    <p class="social-preview-url">example.com/neural-architecture</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview-section">
+        <h2>Facebook/Open Graph Testing <span class="status status-success">Implemented</span></h2>
+        <p>Test how your page appears when shared on Facebook, LinkedIn, and other platforms that use Open Graph:</p>
+        <a href="https://developers.facebook.com/tools/debug/" target="_blank" class="test-link">Facebook Sharing Debugger</a>
+        
+        <h4>Current Open Graph Data:</h4>
+        <div class="meta-tag">og:title: Advanced Neural Architecture for Computer Vision Tasks</div>
+        <div class="meta-tag">og:description: A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.</div>
+        <div class="meta-tag">og:image: https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg</div>
+        <div class="meta-tag">og:type: article</div>
+        <div class="meta-tag">og:url: https://example.com/neural-architecture/</div>
+        <div class="meta-tag">og:site_name: Neural Architecture Research</div>
+        <div class="meta-tag">article:published_time: 2024-12-15</div>
+        <div class="meta-tag">article:author: Dr. Sarah Chen, Prof. Michael Rodriguez, Dr. Emily Watson</div>
+        
+        <div class="tag-list">
+            <span class="tag">article:section: Computer Vision</span>
+            <span class="tag">article:tag: neural architecture</span>
+            <span class="tag">article:tag: computer vision</span>
+            <span class="tag">article:tag: image recognition</span>
+        </div>
+    </div>
+
+    <div class="preview-section">
+        <h2>Twitter Card Testing <span class="status status-success">Implemented</span></h2>
+        <p>Test how your page appears when shared on Twitter/X:</p>
+        <a href="https://cards-dev.twitter.com/validator" target="_blank" class="test-link">Twitter Card Validator</a>
+        
+        <h4>Current Twitter Card Data:</h4>
+        <div class="meta-tag">twitter:card: summary_large_image</div>
+        <div class="meta-tag">twitter:title: Advanced Neural Architecture for Computer Vision Tasks</div>
+        <div class="meta-tag">twitter:description: A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.</div>
+        <div class="meta-tag">twitter:image: https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg</div>
+        <div class="meta-tag">twitter:image:alt: Visual representation of the neural architecture research results</div>
+        <div class="meta-tag">twitter:creator: @ResearchTeam</div>
+        <div class="meta-tag">twitter:site: @ResearchInstitute</div>
+    </div>
+
+    <div class="preview-section">
+        <h2>LinkedIn Testing <span class="status status-success">Implemented</span></h2>
+        <p>Test how your page appears when shared on LinkedIn:</p>
+        <a href="https://www.linkedin.com/post-inspector/" target="_blank" class="test-link">LinkedIn Post Inspector</a>
+        
+        <p>LinkedIn primarily uses Open Graph tags for its previews. The same Open Graph tags used for Facebook will be used by LinkedIn.</p>
+    </div>
+
+    <div class="preview-section">
+        <h2>Google Rich Results Testing <span class="status status-success">Implemented</span></h2>
+        <p>Test your structured data markup for search engine understanding:</p>
+        <a href="https://search.google.com/test/rich-results" target="_blank" class="test-link">Google Rich Results Test</a>
+        <a href="https://validator.schema.org/" target="_blank" class="test-link">Schema.org Validator</a>
+        
+        <h4>Current Structured Data:</h4>
+        <div class="meta-tag">@type: ScholarlyArticle</div>
+        <div class="meta-tag">headline: Advanced Neural Architecture for Computer Vision Tasks</div>
+        <div class="meta-tag">alternativeHeadline: A novel approach to improving accuracy and efficiency in image recognition</div>
+        <div class="meta-tag">author: [Multiple authors with affiliations]</div>
+        <div class="meta-tag">datePublished: 2024-12-15</div>
+        <div class="meta-tag">description: We present a novel neural architecture that significantly improves performance on computer vision tasks...</div>
+        <div class="meta-tag">publisher: Conference on Neural Information Processing Systems (NeurIPS)</div>
+        <div class="meta-tag">about: Computer Vision, Deep Learning, Artificial Intelligence</div>
+        
+        <p>Additional schema types implemented:</p>
+        <div class="tag-list">
+            <span class="tag">Dataset</span>
+            <span class="tag">CreativeWork</span>
+            <span class="tag">ResearchProject</span>
+            <span class="tag">LearningResource</span>
+            <span class="tag">Event</span>
+            <span class="tag">BreadcrumbList</span>
+        </div>
+    </div>
+
+    <div class="preview-section">
+        <h2>SEO Analysis <span class="status status-success">Implemented</span></h2>
+        <p>Test overall SEO performance and optimization:</p>
+        <a href="https://pagespeed.web.dev/" target="_blank" class="test-link">PageSpeed Insights</a>
+        <a href="https://www.seobility.net/en/seocheck/" target="_blank" class="test-link">SEO Check</a>
+        
+        <h4>Current SEO Implementation:</h4>
+        <ul>
+            <li>✅ Semantic HTML structure with proper heading hierarchy</li>
+            <li>✅ Responsive design for all device sizes</li>
+            <li>✅ Optimized images with modern formats (WebP, AVIF)</li>
+            <li>✅ Lazy loading for below-the-fold content</li>
+            <li>✅ Critical CSS inlining for above-the-fold content</li>
+            <li>✅ Comprehensive structured data markup</li>
+            <li>✅ XML sitemap with image information</li>
+            <li>✅ Properly configured robots.txt</li>
+        </ul>
+    </div>
+
+    <div class="preview-section">
+        <h2>Manual Testing Checklist</h2>
+        <p>Use this checklist to verify all SEO and social media optimization elements:</p>
+        
+        <h4>Meta Tags:</h4>
+        <div class="checklist-item">
+            <input type="checkbox" id="check1" checked>
+            <label for="check1">Title tag (unique and descriptive)</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check2" checked>
+            <label for="check2">Meta description (compelling and under 160 characters)</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check3" checked>
+            <label for="check3">Meta keywords (relevant academic terms)</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check4" checked>
+            <label for="check4">Canonical URL</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check5" checked>
+            <label for="check5">Language declaration</label>
+        </div>
+        
+        <h4>Open Graph Tags:</h4>
+        <div class="checklist-item">
+            <input type="checkbox" id="check6" checked>
+            <label for="check6">og:title, og:description, og:image</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check7" checked>
+            <label for="check7">og:type set to "article"</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check8" checked>
+            <label for="check8">og:url with canonical URL</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check9" checked>
+            <label for="check9">Article-specific tags (published_time, author, section)</label>
+        </div>
+        
+        <h4>Twitter Cards:</h4>
+        <div class="checklist-item">
+            <input type="checkbox" id="check10" checked>
+            <label for="check10">twitter:card set to "summary_large_image"</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check11" checked>
+            <label for="check11">twitter:title, twitter:description, twitter:image</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check12" checked>
+            <label for="check12">twitter:creator and twitter:site if available</label>
+        </div>
+        
+        <h4>Structured Data:</h4>
+        <div class="checklist-item">
+            <input type="checkbox" id="check13" checked>
+            <label for="check13">ScholarlyArticle schema with complete author information</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check14" checked>
+            <label for="check14">BreadcrumbList for navigation</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check15" checked>
+            <label for="check15">Additional research-specific schemas</label>
+        </div>
+        
+        <h4>Technical SEO:</h4>
+        <div class="checklist-item">
+            <input type="checkbox" id="check16" checked>
+            <label for="check16">XML sitemap present and accessible</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check17" checked>
+            <label for="check17">Robots.txt configured properly</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check18" checked>
+            <label for="check18">Fast loading times (< 3 seconds)</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check19" checked>
+            <label for="check19">Mobile-responsive design</label>
+        </div>
+        <div class="checklist-item">
+            <input type="checkbox" id="check20" checked>
+            <label for="check20">HTTPS enabled (when deployed)</label>
+        </div>
+    </div>
+
+    <!-- SVG Icons for Social Media -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="icon-facebook" viewBox="0 0 24 24">
+            <path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/>
+        </symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24">
+            <path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24">
+            <path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/>
+        </symbol>
+        <symbol id="icon-envelope" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </symbol>
+    </svg>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Social Media Preview Test Page Loaded');
+            
+            // Tab functionality
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    // Hide all tab content
+                    document.querySelectorAll('.tab-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    
+                    // Show the corresponding tab content
+                    const tabId = tab.getAttribute('data-tab') + '-tab';
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Copy functionality for meta tags
+            document.querySelectorAll('.meta-tag').forEach(tag => {
+                const copyBtn = document.createElement('button');
+                copyBtn.className = 'copy-btn';
+                copyBtn.textContent = 'Copy';
+                copyBtn.addEventListener('click', () => {
+                    navigator.clipboard.writeText(tag.textContent.split(': ')[1]);
+                    copyBtn.textContent = 'Copied!';
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy';
+                    }, 2000);
+                });
+                tag.appendChild(copyBtn);
+            });
+            
+            // Update preview URLs with actual domain if available
+            const currentDomain = window.location.origin;
+            document.querySelectorAll('.social-preview-url').forEach(url => {
+                if (currentDomain !== 'null') {
+                    const path = url.textContent.split('/')[1];
+                    url.textContent = currentDomain.replace('http://', '').replace('https://', '') + '/' + path;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

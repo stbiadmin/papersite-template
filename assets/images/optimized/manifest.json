@@ -1,0 +1,366 @@
+{
+  "version": "1.0.0",
+  "generated": "2025-07-16T17:54:16.422Z",
+  "optimizations": {
+    "formats": [
+      "webp",
+      "avif",
+      "jpg"
+    ],
+    "qualities": {
+      "jpg": 80,
+      "webp": 75,
+      "avif": 70
+    },
+    "sizes": [
+      {
+        "suffix": "",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "suffix": "@2x",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "suffix": "-thumb",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "suffix": "-mobile",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  "images": {
+    "placeholder-result-1-mobile": {
+      "alt": "Comparison showing original image classification results versus enhanced results",
+      "category": "comparison",
+      "variants": [
+        {
+          "filename": "placeholder-result-1-mobile.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "quality": 70,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-1-mobile.jpg",
+          "format": "jpg",
+          "width": 640,
+          "height": 480,
+          "quality": 80,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-1-mobile.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "quality": 75,
+          "estimatedSize": 30720
+        }
+      ]
+    },
+    "placeholder-result-1": {
+      "alt": "Comparison showing original image classification results versus enhanced results",
+      "category": "comparison",
+      "variants": [
+        {
+          "filename": "placeholder-result-1-thumb.avif",
+          "format": "avif",
+          "width": 400,
+          "height": 300,
+          "quality": 70,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-1-thumb.jpg",
+          "format": "jpg",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-1-thumb.webp",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-1.avif",
+          "format": "avif",
+          "width": 800,
+          "height": 600,
+          "quality": 70,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-1.jpg",
+          "format": "jpg",
+          "width": 800,
+          "height": 600,
+          "quality": 80,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-1.webp",
+          "format": "webp",
+          "width": 800,
+          "height": 600,
+          "quality": 75,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-1@2x.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1200,
+          "quality": 70,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-1@2x.jpg",
+          "format": "jpg",
+          "width": 1600,
+          "height": 1200,
+          "quality": 80,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-1@2x.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1200,
+          "quality": 75,
+          "estimatedSize": 192000
+        }
+      ]
+    },
+    "placeholder-result-2-mobile": {
+      "alt": "Attention mechanism heatmap overlay on sample images",
+      "category": "visualization",
+      "variants": [
+        {
+          "filename": "placeholder-result-2-mobile.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "quality": 70,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-2-mobile.jpg",
+          "format": "jpg",
+          "width": 640,
+          "height": 480,
+          "quality": 80,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-2-mobile.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "quality": 75,
+          "estimatedSize": 30720
+        }
+      ]
+    },
+    "placeholder-result-2": {
+      "alt": "Attention mechanism heatmap overlay on sample images",
+      "category": "visualization",
+      "variants": [
+        {
+          "filename": "placeholder-result-2-thumb.avif",
+          "format": "avif",
+          "width": 400,
+          "height": 300,
+          "quality": 70,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-2-thumb.jpg",
+          "format": "jpg",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-2-thumb.webp",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-2.avif",
+          "format": "avif",
+          "width": 800,
+          "height": 600,
+          "quality": 70,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-2.jpg",
+          "format": "jpg",
+          "width": 800,
+          "height": 600,
+          "quality": 80,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-2.webp",
+          "format": "webp",
+          "width": 800,
+          "height": 600,
+          "quality": 75,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-2@2x.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1200,
+          "quality": 70,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-2@2x.jpg",
+          "format": "jpg",
+          "width": 1600,
+          "height": 1200,
+          "quality": 80,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-2@2x.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1200,
+          "quality": 75,
+          "estimatedSize": 192000
+        }
+      ]
+    },
+    "placeholder-result-3-mobile": {
+      "alt": "Bar charts and graphs showing performance benchmarks across different datasets",
+      "category": "metrics",
+      "variants": [
+        {
+          "filename": "placeholder-result-3-mobile.avif",
+          "format": "avif",
+          "width": 640,
+          "height": 480,
+          "quality": 70,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-3-mobile.jpg",
+          "format": "jpg",
+          "width": 640,
+          "height": 480,
+          "quality": 80,
+          "estimatedSize": 30720
+        },
+        {
+          "filename": "placeholder-result-3-mobile.webp",
+          "format": "webp",
+          "width": 640,
+          "height": 480,
+          "quality": 75,
+          "estimatedSize": 30720
+        }
+      ]
+    },
+    "placeholder-result-3": {
+      "alt": "Bar charts and graphs showing performance benchmarks across different datasets",
+      "category": "metrics",
+      "variants": [
+        {
+          "filename": "placeholder-result-3-thumb.avif",
+          "format": "avif",
+          "width": 400,
+          "height": 300,
+          "quality": 70,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-3-thumb.jpg",
+          "format": "jpg",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-3-thumb.webp",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "estimatedSize": 12000
+        },
+        {
+          "filename": "placeholder-result-3.avif",
+          "format": "avif",
+          "width": 800,
+          "height": 600,
+          "quality": 70,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-3.jpg",
+          "format": "jpg",
+          "width": 800,
+          "height": 600,
+          "quality": 80,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-3.webp",
+          "format": "webp",
+          "width": 800,
+          "height": 600,
+          "quality": 75,
+          "estimatedSize": 48000
+        },
+        {
+          "filename": "placeholder-result-3@2x.avif",
+          "format": "avif",
+          "width": 1600,
+          "height": 1200,
+          "quality": 70,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-3@2x.jpg",
+          "format": "jpg",
+          "width": 1600,
+          "height": 1200,
+          "quality": 80,
+          "estimatedSize": 192000
+        },
+        {
+          "filename": "placeholder-result-3@2x.webp",
+          "format": "webp",
+          "width": 1600,
+          "height": 1200,
+          "quality": 75,
+          "estimatedSize": 192000
+        }
+      ]
+    }
+  },
+  "totalSize": 2544480,
+  "compressionRatio": 0.65
+}

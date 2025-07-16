@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="description" content="Advanced Neural Architecture for Computer Vision Tasks: A novel approach to improving accuracy and efficiency in image recognition. Research by Dr. Sarah Chen, Prof. Michael Rodriguez, and Dr. Emily Watson.">
+    <meta name="keywords" content="neural architecture, computer vision, image recognition, attention mechanisms, hierarchical feature extraction, NeurIPS, deep learning, AI research">
+    <meta name="author" content="Dr. Sarah Chen, Prof. Michael Rodriguez, Dr. Emily Watson">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="generator" content="Academic Paper Website Generator">
+    <meta name="rating" content="General">
+    <meta name="distribution" content="Global">
+    <meta name="coverage" content="Worldwide">
+    <meta name="subject" content="Computer Vision Research">
+    <meta name="copyright" content="© 2024 Research Team">
+    <meta name="classification" content="Academic Research">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://example.com/neural-architecture/">
+    <meta property="og:title" content="Advanced Neural Architecture for Computer Vision Tasks">
+    <meta property="og:description" content="A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.">
+    <meta property="og:image" content="https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg">
+    <meta property="og:image:alt" content="Visual representation of the neural architecture research results">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Neural Architecture Research">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:published_time" content="2024-12-15">
+    <meta property="article:author" content="Dr. Sarah Chen, Prof. Michael Rodriguez, Dr. Emily Watson">
+    <meta property="article:section" content="Computer Vision">
+    <meta property="article:tag" content="neural architecture">
+    <meta property="article:tag" content="computer vision">
+    <meta property="article:tag" content="image recognition">
+    <meta property="article:tag" content="deep learning">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://example.com/neural-architecture/">
+    <meta name="twitter:title" content="Advanced Neural Architecture for Computer Vision Tasks">
+    <meta name="twitter:description" content="A novel approach to improving accuracy and efficiency in image recognition with 15% improved accuracy and 40% reduction in computational requirements.">
+    <meta name="twitter:image" content="https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg">
+    <meta name="twitter:image:alt" content="Visual representation of the neural architecture research results">
+    <meta name="twitter:creator" content="@ResearchTeam">
+    <meta name="twitter:site" content="@ResearchInstitute">
+    <meta name="twitter:label1" content="Published in">
+    <meta name="twitter:data1" content="NeurIPS 2024">
+    <meta name="twitter:label2" content="Reading time">
+    <meta name="twitter:data2" content="10 minutes">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://example.com/neural-architecture/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Load CSS normally instead of broken inline critical CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/js/main.js" as="script">
+    <link rel="preload" href="data/paper-info.json" as="fetch" crossorigin>
+    <link rel="preload" href="data/results-gallery.json" as="fetch" crossorigin>
+    
+    <!-- Preload critical images -->
+    <link rel="preload" href="assets/images/placeholder-result-1.jpg" as="image" fetchpriority="high">
+    
+    <!-- Prefetch below-the-fold resources -->
+    <link rel="prefetch" href="assets/images/placeholder-result-2.jpg">
+    <link rel="prefetch" href="assets/images/placeholder-result-3.jpg">
+    <link rel="prefetch" href="data/methodology.json">
+    
+    <!-- Resource hints for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    
+    <title>Advanced Neural Architecture for Computer Vision Tasks</title>
+    
+    <!-- Schema.org markup for academic publications -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "Advanced Neural Architecture for Computer Vision Tasks",
+      "alternativeHeadline": "A novel approach to improving accuracy and efficiency in image recognition",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Dr. Sarah Chen",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Stanford University",
+            "@id": "https://www.stanford.edu/"
+          },
+          "email": "sarah.chen@stanford.edu",
+          "url": "https://example.com/sarah-chen"
+        },
+        {
+          "@type": "Person",
+          "name": "Prof. Michael Rodriguez",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "MIT Computer Science",
+            "@id": "https://www.mit.edu/"
+          },
+          "email": "mrodriguez@mit.edu",
+          "url": "https://example.com/michael-rodriguez"
+        },
+        {
+          "@type": "Person",
+          "name": "Dr. Emily Watson",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Stanford University",
+            "@id": "https://www.stanford.edu/"
+          },
+          "email": "emily.watson@stanford.edu"
+        }
+      ],
+      "datePublished": "2024-12-15",
+      "description": "We present a novel neural architecture that significantly improves performance on computer vision tasks while maintaining computational efficiency.",
+      "abstract": "We present a novel neural architecture that significantly improves performance on computer vision tasks while maintaining computational efficiency. Our approach combines attention mechanisms with hierarchical feature extraction to achieve state-of-the-art results on multiple benchmark datasets. The proposed method demonstrates superior accuracy compared to existing approaches while requiring 40% fewer computational resources during inference.",
+      "keywords": "neural architecture, computer vision, image recognition, attention mechanisms, hierarchical feature extraction, deep learning, artificial intelligence",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Conference on Neural Information Processing Systems (NeurIPS)",
+        "url": "https://neurips.cc/"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Computer Vision"
+        },
+        {
+          "@type": "Thing",
+          "name": "Deep Learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Artificial Intelligence"
+        }
+      ],
+      "isAccessibleForFree": "true",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "DOI",
+          "value": "10.1000/182",
+          "url": "https://doi.org/10.1000/182"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "arXiv",
+          "value": "2024.12345",
+          "url": "https://arxiv.org/abs/2024.12345"
+        }
+      ],
+      "citation": {
+        "@type": "CreativeWork",
+        "text": "Chen, S., Rodriguez, M., & Watson, E. (2024). Advanced Neural Architecture for Computer Vision Tasks. Conference on Neural Information Processing Systems."
+      },
+      "sameAs": "https://arxiv.org/abs/2024.12345",
+      "url": "https://example.com/neural-architecture/",
+      "image": "https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg",
+      "mainEntityOfPage": "https://example.com/neural-architecture/"
+    }
+    </script>
+    
+    <!-- BreadcrumbList schema markup for improved navigation understanding -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://example.com/neural-architecture/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Abstract",
+          "item": "https://example.com/neural-architecture/#abstract"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Results",
+          "item": "https://example.com/neural-architecture/#results"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Methodology",
+          "item": "https://example.com/neural-architecture/#methodology"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Citation",
+          "item": "https://example.com/neural-architecture/#citation"
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="main-layout">
+    <!-- Header and Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <h1 class="nav-title">Paper Title</h1>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem">Home</a></li>
+                <li role="none"><a href="#abstract" role="menuitem">Abstract</a></li>
+                <li role="none"><a href="#results" role="menuitem">Results</a></li>
+                <li role="none"><a href="#methodology" role="menuitem">Methodology</a></li>
+                <li role="none"><a href="#citation" role="menuitem">Citation</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="hero">
+            <div class="container">
+                <div class="hero-layout">
+                    <div class="hero-content">
+                        <h1 class="hero-title" id="paper-title">Paper Title Placeholder</h1>
+                        <p class="hero-subtitle" id="paper-subtitle">Subtitle or tagline if applicable</p>
+                        
+                        <div class="hero-authors">
+                            <div class="authors-list" id="authors-list">
+                                <span class="author-name">Author names will be displayed here</span>
+                            </div>
+                            <div class="authors-affiliations" id="authors-affiliations">
+                                <span class="affiliation">Affiliations will be displayed here</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-publication">
+                            <div class="publication-info">
+                                <span class="publication-venue" id="publication-venue">Publication venue</span>
+                                <span class="publication-separator">•</span>
+                                <time class="publication-date" id="publication-date" datetime="2024-01-01">Publication date</time>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-actions">
+                            <a href="#" class="btn btn-primary" id="paper-pdf-link" aria-label="Download paper PDF">
+                                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14,2 14,8 20,8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10,9 9,9 8,9"></polyline>
+                                </svg>
+                                Paper PDF
+                            </a>
+                            <a href="#" class="btn btn-secondary" id="code-link" aria-label="View source code">
+                                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <!-- Hero image or video will go here -->
+                        <div class="hero-placeholder">
+                            <div class="placeholder-content">
+                                <svg class="placeholder-icon" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                    <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                    <polyline points="21,15 16,10 5,21"></polyline>
+                                </svg>
+                                <p class="placeholder-text">Hero visual will be displayed here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Abstract Section -->
+        <section class="abstract section" id="abstract">
+            <div class="container">
+                <div class="abstract-header">
+                    <h2 class="section-title">Abstract</h2>
+                    <p class="section-subtitle">Research overview and key contributions</p>
+                </div>
+                <div class="abstract-layout">
+                    <div class="abstract-content">
+                        <div class="abstract-text-container">
+                            <p class="abstract-text" id="abstract-text">
+                                Abstract content will be displayed here. This section will contain the paper's abstract
+                                and key contributions in a readable format.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="abstract-sidebar">
+                        <div class="key-contributions card">
+                            <div class="contributions-header">
+                                <h3 class="contributions-title">Key Contributions</h3>
+                                <div class="contributions-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 11l3 3l8-8"></path>
+                                        <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9s4.03-9 9-9c1.51 0 2.93.37 4.18 1.03"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <ul class="contributions-list" id="contributions-list">
+                                <li class="contribution-item">Key contribution 1</li>
+                                <li class="contribution-item">Key contribution 2</li>
+                                <li class="contribution-item">Key contribution 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results section-lg" id="results">
+            <div class="container">
+                <div class="results-header">
+                    <h2 class="section-title">Results</h2>
+                    <p class="section-subtitle">Visual demonstrations and research outcomes</p>
+                </div>
+                <div class="results-gallery" id="results-gallery">
+                    <!-- Results will be dynamically loaded here -->
+                    <div class="result-item" data-category="comparison">
+                        <div class="result-media">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2364748b' font-family='system-ui'%3ELoading...%3C/text%3E%3C/svg%3E" 
+                                 alt="Comparison showing original image classification results versus enhanced results" 
+                                 class="result-image lazy-load"
+                                 data-src="assets/images/placeholder-result-1.jpg"
+                                 data-srcset="assets/images/optimized/placeholder-result-1-mobile.webp 640w, assets/images/optimized/placeholder-result-1.webp 800w, assets/images/optimized/placeholder-result-1@2x.webp 1600w"
+                                 data-sizes="(max-width: 768px) 100vw, 50vw"
+                                 loading="lazy"
+                                 width="400"
+                                 height="300"
+                                 fetchpriority="low"
+                                 decoding="async">
+                            <div class="result-overlay">
+                                <button class="result-zoom-btn" aria-label="View full size image">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                        <path d="M11 8v6"></path>
+                                        <path d="M8 11h6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="result-content">
+                            <h3 class="result-title">Original vs Enhanced Comparison</h3>
+                            <p class="result-description">Side-by-side comparison showing the improvement achieved by our neural architecture on image classification tasks.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="result-item" data-category="visualization">
+                        <div class="result-media">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2364748b' font-family='system-ui'%3ELoading...%3C/text%3E%3C/svg%3E" 
+                                 alt="Attention mechanism heatmap overlay on sample images" 
+                                 class="result-image lazy-load"
+                                 data-src="assets/images/placeholder-result-2.jpg"
+                                 data-srcset="assets/images/optimized/placeholder-result-2-mobile.webp 640w, assets/images/optimized/placeholder-result-2.webp 800w, assets/images/optimized/placeholder-result-2@2x.webp 1600w"
+                                 data-sizes="(max-width: 768px) 100vw, 50vw"
+                                 loading="lazy"
+                                 width="400"
+                                 height="300"
+                                 fetchpriority="low"
+                                 decoding="async">
+                            <div class="result-overlay">
+                                <button class="result-zoom-btn" aria-label="View full size image">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                        <path d="M11 8v6"></path>
+                                        <path d="M8 11h6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="result-content">
+                            <h3 class="result-title">Attention Mechanism Visualization</h3>
+                            <p class="result-description">Heatmap visualization demonstrating how our attention mechanism focuses on relevant image regions for improved accuracy.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="result-item" data-category="metrics">
+                        <div class="result-media">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23f8fafc'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2364748b' font-family='system-ui'%3ELoading...%3C/text%3E%3C/svg%3E" 
+                                 alt="Bar charts and graphs showing performance benchmarks across different datasets" 
+                                 class="result-image lazy-load"
+                                 data-src="assets/images/placeholder-result-3.jpg"
+                                 data-srcset="assets/images/optimized/placeholder-result-3-mobile.webp 640w, assets/images/optimized/placeholder-result-3.webp 800w, assets/images/optimized/placeholder-result-3@2x.webp 1600w"
+                                 data-sizes="(max-width: 768px) 100vw, 50vw"
+                                 loading="lazy"
+                                 width="400"
+                                 height="300"
+                                 fetchpriority="low"
+                                 decoding="async">
+                            <div class="result-overlay">
+                                <button class="result-zoom-btn" aria-label="View full size image">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="11" cy="11" r="8"></circle>
+                                        <path d="m21 21-4.35-4.35"></path>
+                                        <path d="M11 8v6"></path>
+                                        <path d="M8 11h6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="result-content">
+                            <h3 class="result-title">Performance Benchmarks</h3>
+                            <p class="result-description">Comprehensive performance comparison across multiple datasets showing consistent improvements in accuracy and efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Lightbox Modal -->
+            <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+                <div class="lightbox-backdrop" aria-label="Close lightbox"></div>
+                <div class="lightbox-container">
+                    <button class="lightbox-close" aria-label="Close lightbox">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                    <div class="lightbox-content">
+                        <img class="lightbox-image" src="" alt="" loading="lazy">
+                        <div class="lightbox-info">
+                            <h3 class="lightbox-title"></h3>
+                            <p class="lightbox-description"></p>
+                        </div>
+                    </div>
+                    <div class="lightbox-navigation">
+                        <button class="lightbox-prev" aria-label="Previous image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <button class="lightbox-next" aria-label="Next image">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Section -->
+        <section class="methodology section" id="methodology">
+            <div class="container">
+                <div class="methodology-header">
+                    <h2 class="section-title">Methodology</h2>
+                    <p class="section-subtitle">Technical approach and implementation details</p>
+                </div>
+                
+                <div class="methodology-overview">
+                    <div class="overview-content">
+                        <p class="overview-text" id="methodology-overview">
+                            Our approach combines attention mechanisms with hierarchical feature extraction to achieve state-of-the-art results on computer vision tasks while maintaining computational efficiency.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="methodology-sections" id="methodology-sections">
+                    <!-- Methodology sections will be dynamically loaded here -->
+                    <div class="methodology-section" data-section="architecture">
+                        <div class="section-header">
+                            <button class="section-toggle" aria-expanded="false" aria-controls="section-architecture">
+                                <div class="section-title-group">
+                                    <h3 class="section-title">Neural Architecture Design</h3>
+                                    <p class="section-summary">Novel attention-based architecture with hierarchical feature extraction</p>
+                                </div>
+                                <div class="section-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="section-content" id="section-architecture" aria-hidden="true">
+                            <div class="content-layout">
+                                <div class="content-text">
+                                    <p class="content-description">
+                                        We propose a novel neural architecture that integrates multi-scale attention mechanisms with hierarchical feature extraction. The architecture consists of three main components: (1) a feature extraction backbone based on ResNet-50, (2) a multi-head attention module that captures spatial relationships, and (3) a hierarchical fusion layer that combines features at different scales.
+                                    </p>
+                                    <ul class="content-details">
+                                        <li>Feature extraction backbone processes input images at multiple resolutions</li>
+                                        <li>Multi-head attention mechanism with 8 attention heads</li>
+                                        <li>Hierarchical fusion using learnable weighted combinations</li>
+                                        <li>Skip connections preserve low-level features throughout the network</li>
+                                    </ul>
+                                </div>
+                                <div class="content-diagram">
+                                    <div class="diagram-placeholder">
+                                        <svg class="diagram-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                            <path d="M9 9h6v6H9z"></path>
+                                            <path d="M9 1v6M15 1v6M9 17v6M15 17v6M1 9h6M1 15h6M17 9h6M17 15h6"></path>
+                                        </svg>
+                                        <p class="diagram-label">Architecture Diagram</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-section" data-section="training">
+                        <div class="section-header">
+                            <button class="section-toggle" aria-expanded="false" aria-controls="section-training">
+                                <div class="section-title-group">
+                                    <h3 class="section-title">Training Methodology</h3>
+                                    <p class="section-summary">Progressive training strategy with data augmentation and regularization</p>
+                                </div>
+                                <div class="section-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="section-content" id="section-training" aria-hidden="true">
+                            <div class="content-layout">
+                                <div class="content-text">
+                                    <p class="content-description">
+                                        Our training methodology employs a progressive training strategy that gradually increases the complexity of the learning task. We use extensive data augmentation techniques including random cropping, rotation, color jittering, and mixup to improve generalization.
+                                    </p>
+                                    <ul class="content-details">
+                                        <li>Progressive training starting with 224x224 images, scaling to 384x384</li>
+                                        <li>Data augmentation: random crop, rotation (±15°), color jitter (±0.2)</li>
+                                        <li>Mixup augmentation with α=0.2 for improved regularization</li>
+                                        <li>Learning rate schedule: cosine annealing with warm restarts</li>
+                                        <li>Batch size of 128 across 4 GPUs with gradient accumulation</li>
+                                    </ul>
+                                </div>
+                                <div class="content-diagram">
+                                    <div class="diagram-placeholder">
+                                        <svg class="diagram-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                            <path d="M2 17l10 5 10-5"></path>
+                                            <path d="M2 12l10 5 10-5"></path>
+                                        </svg>
+                                        <p class="diagram-label">Training Pipeline</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-section" data-section="evaluation">
+                        <div class="section-header">
+                            <button class="section-toggle" aria-expanded="false" aria-controls="section-evaluation">
+                                <div class="section-title-group">
+                                    <h3 class="section-title">Evaluation Protocol</h3>
+                                    <p class="section-summary">Comprehensive evaluation across multiple datasets and metrics</p>
+                                </div>
+                                <div class="section-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="section-content" id="section-evaluation" aria-hidden="true">
+                            <div class="content-layout">
+                                <div class="content-text">
+                                    <p class="content-description">
+                                        We evaluate our method on three standard computer vision benchmarks: ImageNet-1K, CIFAR-10, and COCO detection. For each dataset, we report standard metrics and compare against state-of-the-art baselines.
+                                    </p>
+                                    <ul class="content-details">
+                                        <li>ImageNet-1K: Top-1 and Top-5 accuracy on validation set</li>
+                                        <li>CIFAR-10: Classification accuracy with standard train/test split</li>
+                                        <li>COCO: Object detection mAP@0.5 and mAP@0.5:0.95</li>
+                                        <li>Statistical significance testing using paired t-tests</li>
+                                        <li>Computational efficiency measured in FLOPs and inference time</li>
+                                    </ul>
+                                </div>
+                                <div class="content-diagram">
+                                    <div class="diagram-placeholder">
+                                        <svg class="diagram-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                            <path d="M3 3v18h18"></path>
+                                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path>
+                                        </svg>
+                                        <p class="diagram-label">Evaluation Metrics</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="methodology-section" data-section="implementation">
+                        <div class="section-header">
+                            <button class="section-toggle" aria-expanded="false" aria-controls="section-implementation">
+                                <div class="section-title-group">
+                                    <h3 class="section-title">Implementation Details</h3>
+                                    <p class="section-summary">Technical implementation specifics and hyperparameters</p>
+                                </div>
+                                <div class="section-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="section-content" id="section-implementation" aria-hidden="true">
+                            <div class="content-layout">
+                                <div class="content-text">
+                                    <p class="content-description">
+                                        Our implementation is based on PyTorch 1.12 and uses mixed precision training for efficiency. All experiments were conducted on NVIDIA A100 GPUs with 40GB memory.
+                                    </p>
+                                    <ul class="content-details">
+                                        <li>PyTorch 1.12 with CUDA 11.6 support</li>
+                                        <li>Mixed precision training using automatic mixed precision (AMP)</li>
+                                        <li>Adam optimizer with β₁=0.9, β₂=0.999, ε=1e-8</li>
+                                        <li>Weight decay of 1e-4 applied to all parameters except biases</li>
+                                        <li>Gradient clipping with maximum norm of 1.0</li>
+                                        <li>Early stopping based on validation loss with patience of 10 epochs</li>
+                                    </ul>
+                                </div>
+                                <div class="content-diagram">
+                                    <div class="diagram-placeholder">
+                                        <svg class="diagram-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                            <polyline points="16 18 22 12 16 6"></polyline>
+                                            <polyline points="8 6 2 12 8 18"></polyline>
+                                        </svg>
+                                        <p class="diagram-label">Implementation Stack</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="related-work">
+                    <h3 class="related-work-title">Related Work</h3>
+                    <div class="related-work-grid">
+                        <div class="related-work-item">
+                            <h4 class="work-title">Attention Is All You Need</h4>
+                            <p class="work-authors">Vaswani et al. (2017)</p>
+                            <p class="work-relevance">Foundation for our attention mechanism design</p>
+                        </div>
+                        <div class="related-work-item">
+                            <h4 class="work-title">ResNet: Deep Residual Learning</h4>
+                            <p class="work-authors">He et al. (2016)</p>
+                            <p class="work-relevance">Backbone architecture for feature extraction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Citation Section -->
+        <section class="citation section" id="citation">
+            <div class="container">
+                <div class="citation-header">
+                    <h2 class="section-title">Citation</h2>
+                    <p class="section-subtitle">Reference this work in your research</p>
+                </div>
+                
+                <div class="citation-layout">
+                    <!-- Publication Identifiers -->
+                    <div class="citation-identifiers">
+                        <div class="identifier-item" id="doi-container" style="display: none;">
+                            <div class="identifier-header">
+                                <h3 class="identifier-title">DOI</h3>
+                                <button class="copy-identifier-btn" data-copy-target="doi-text" aria-label="Copy DOI">
+                                    <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="identifier-content">
+                                <code class="identifier-text" id="doi-text"></code>
+                                <a class="identifier-link" id="doi-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open DOI link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="identifier-item" id="arxiv-container" style="display: none;">
+                            <div class="identifier-header">
+                                <h3 class="identifier-title">arXiv</h3>
+                                <button class="copy-identifier-btn" data-copy-target="arxiv-text" aria-label="Copy arXiv ID">
+                                    <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="identifier-content">
+                                <code class="identifier-text" id="arxiv-text"></code>
+                                <a class="identifier-link" id="arxiv-link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open arXiv link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- BibTeX Citation -->
+                    <div class="bibtex-container">
+                        <div class="bibtex-header">
+                            <h3 class="bibtex-title">BibTeX Citation</h3>
+                            <button class="copy-bibtex-btn" aria-label="Copy BibTeX citation">
+                                <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                        <div class="bibtex-content">
+                            <pre class="bibtex-code" id="bibtex-code"><code>@article{placeholder,
+  title={Paper Title},
+  author={Author Names},
+  journal={Journal Name},
+  year={2024}
+}</code></pre>
+                        </div>
+                        <div class="copy-feedback" id="copy-feedback" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Author Contact Information -->
+                <div class="footer-section contact-section">
+                    <div class="section-header">
+                        <h3 class="footer-title">Contact Information</h3>
+                        <div class="footer-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="authors-contact" id="authors-contact">
+                        <!-- Author contact information will be populated here -->
+                        <div class="contact-placeholder">
+                            <p class="placeholder-text">Author contact information will be displayed here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Acknowledgments Section -->
+                <div class="footer-section acknowledgments-section">
+                    <div class="section-header">
+                        <h3 class="footer-title">Acknowledgments</h3>
+                        <div class="footer-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4"></path>
+                                <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9s4.03-9 9-9c1.51 0 2.93.37 4.18 1.03"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="acknowledgments-content">
+                        <p class="acknowledgments-text" id="acknowledgments-text">
+                            We thank the anonymous reviewers for their valuable feedback and suggestions. 
+                            This work was supported by research grants and computational resources from our institutions.
+                            Special thanks to the open-source community for providing the tools and frameworks that made this research possible.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Related Work Section -->
+                <div class="footer-section related-work-section">
+                    <div class="section-header">
+                        <h3 class="footer-title">Related Work & Resources</h3>
+                        <div class="footer-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="related-resources">
+                        <div class="resource-links" id="resource-links">
+                            <a href="#" class="resource-link" id="dataset-link" aria-label="View dataset">
+                                <svg class="resource-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14,2 14,8 20,8"></polyline>
+                                </svg>
+                                <span>Dataset</span>
+                            </a>
+                            <a href="#" class="resource-link" id="supplementary-link" aria-label="View supplementary materials">
+                                <svg class="resource-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <folder x="3" y="3" width="18" height="18" rx="2" ry="2"></folder>
+                                    <path d="M3 7h18"></path>
+                                </svg>
+                                <span>Supplementary</span>
+                            </a>
+                            <a href="#" class="resource-link" id="slides-link" aria-label="View presentation slides">
+                                <svg class="resource-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="12" rx="1"></rect>
+                                    <path d="M7 16l4-4 4 4"></path>
+                                </svg>
+                                <span>Slides</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p class="copyright-text">
+                            © <span id="current-year">2024</span> 
+                            <span id="copyright-authors">Authors</span>. 
+                            All rights reserved.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#hero" class="footer-link" aria-label="Back to top">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 15l-6-6-6 6"></path>
+                            </svg>
+                            Back to Top
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>

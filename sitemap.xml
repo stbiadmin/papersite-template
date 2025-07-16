@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:research="http://www.google.com/schemas/sitemap-research/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://example.com/neural-architecture/</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <!-- Image information for search engines -->
+    <image:image>
+      <image:loc>https://example.com/neural-architecture/assets/images/placeholder-result-1.jpg</image:loc>
+      <image:title>Advanced Neural Architecture - Main Result</image:title>
+      <image:caption>Visual representation of the neural architecture research results</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://example.com/neural-architecture/assets/images/placeholder-result-2.jpg</image:loc>
+      <image:title>Advanced Neural Architecture - Comparison</image:title>
+      <image:caption>Comparison of our method with state-of-the-art approaches</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://example.com/neural-architecture/assets/images/placeholder-result-3.jpg</image:loc>
+      <image:title>Advanced Neural Architecture - Ablation Study</image:title>
+      <image:caption>Ablation study results showing component contributions</image:caption>
+    </image:image>
+    <!-- Academic-specific metadata -->
+    <news:news>
+      <news:publication>
+        <news:name>Neural Information Processing Systems</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-12-15</news:publication_date>
+      <news:title>Advanced Neural Architecture for Computer Vision Tasks</news:title>
+      <news:keywords>neural architecture,computer vision,image recognition,deep learning</news:keywords>
+    </news:news>
+  </url>
+  <!-- Section anchors for deep linking -->
+  <url>
+    <loc>https://example.com/neural-architecture/#abstract</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/neural-architecture/#results</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/neural-architecture/#methodology</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/neural-architecture/#citation</loc>
+    <lastmod>2024-12-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,76 +1,76 @@
 {
   "methodology": {
-    "overview": "Our approach combines attention mechanisms with hierarchical feature extraction to achieve state-of-the-art results on computer vision tasks while maintaining computational efficiency.",
+    "overview": "[Replace with an overview of your methodology and approach.]",
     "sections": [
       {
         "id": "architecture",
-        "title": "Neural Architecture Design",
-        "summary": "Novel attention-based architecture with hierarchical feature extraction",
-        "content": "We propose a novel neural architecture that integrates multi-scale attention mechanisms with hierarchical feature extraction. The architecture consists of three main components: (1) a feature extraction backbone based on ResNet-50, (2) a multi-head attention module that captures spatial relationships, and (3) a hierarchical fusion layer that combines features at different scales.",
+        "title": "[Method Section 1 Title]",
+        "summary": "[Brief summary of this methodology section]",
+        "content": "[Detailed description of your first methodology component. Replace this placeholder text with your actual methodology description.]",
         "details": [
-          "Feature extraction backbone processes input images at multiple resolutions",
-          "Multi-head attention mechanism with 8 attention heads",
-          "Hierarchical fusion using learnable weighted combinations",
-          "Skip connections preserve low-level features throughout the network"
+          "[First implementation detail]",
+          "[Second implementation detail]",
+          "[Third implementation detail]",
+          "[Fourth implementation detail]"
         ],
         "diagram": "assets/images/architecture-diagram.svg"
       },
       {
         "id": "training",
-        "title": "Training Methodology",
-        "summary": "Progressive training strategy with data augmentation and regularization",
-        "content": "Our training methodology employs a progressive training strategy that gradually increases the complexity of the learning task. We use extensive data augmentation techniques including random cropping, rotation, color jittering, and mixup to improve generalization.",
+        "title": "[Method Section 2 Title]",
+        "summary": "[Brief summary of this methodology section]",
+        "content": "[Detailed description of your second methodology component. Replace this placeholder text with your actual methodology description.]",
         "details": [
-          "Progressive training starting with 224x224 images, scaling to 384x384",
-          "Data augmentation: random crop, rotation (±15°), color jitter (±0.2)",
-          "Mixup augmentation with α=0.2 for improved regularization",
-          "Learning rate schedule: cosine annealing with warm restarts",
-          "Batch size of 128 across 4 GPUs with gradient accumulation"
+          "[First training detail]",
+          "[Second training detail]",
+          "[Third training detail]",
+          "[Fourth training detail]",
+          "[Fifth training detail]"
         ],
         "diagram": "assets/images/training-pipeline.svg"
       },
       {
         "id": "evaluation",
-        "title": "Evaluation Protocol",
-        "summary": "Comprehensive evaluation across multiple datasets and metrics",
-        "content": "We evaluate our method on three standard computer vision benchmarks: ImageNet-1K, CIFAR-10, and COCO detection. For each dataset, we report standard metrics and compare against state-of-the-art baselines.",
+        "title": "[Method Section 3 Title]",
+        "summary": "[Brief summary of this methodology section]",
+        "content": "[Detailed description of your evaluation methodology. Replace this placeholder text with your actual evaluation approach.]",
         "details": [
-          "ImageNet-1K: Top-1 and Top-5 accuracy on validation set",
-          "CIFAR-10: Classification accuracy with standard train/test split",
-          "COCO: Object detection mAP@0.5 and mAP@0.5:0.95",
-          "Statistical significance testing using paired t-tests",
-          "Computational efficiency measured in FLOPs and inference time"
+          "[First evaluation detail]",
+          "[Second evaluation detail]",
+          "[Third evaluation detail]",
+          "[Fourth evaluation detail]",
+          "[Fifth evaluation detail]"
         ],
         "diagram": "assets/images/evaluation-metrics.svg"
       },
       {
         "id": "implementation",
-        "title": "Implementation Details",
-        "summary": "Technical implementation specifics and hyperparameters",
-        "content": "Our implementation is based on PyTorch 1.12 and uses mixed precision training for efficiency. All experiments were conducted on NVIDIA A100 GPUs with 40GB memory.",
+        "title": "[Method Section 4 Title]",
+        "summary": "[Brief summary of this methodology section]",
+        "content": "[Detailed description of your implementation details. Replace this placeholder text with your actual implementation information.]",
         "details": [
-          "PyTorch 1.12 with CUDA 11.6 support",
-          "Mixed precision training using automatic mixed precision (AMP)",
-          "Adam optimizer with β₁=0.9, β₂=0.999, ε=1e-8",
-          "Weight decay of 1e-4 applied to all parameters except biases",
-          "Gradient clipping with maximum norm of 1.0",
-          "Early stopping based on validation loss with patience of 10 epochs"
+          "[First implementation detail]",
+          "[Second implementation detail]",
+          "[Third implementation detail]",
+          "[Fourth implementation detail]",
+          "[Fifth implementation detail]",
+          "[Sixth implementation detail]"
         ],
         "diagram": null
       }
     ],
     "relatedWork": [
       {
-        "title": "Attention Is All You Need",
-        "authors": "Vaswani et al.",
-        "year": "2017",
-        "relevance": "Foundation for our attention mechanism design"
+        "title": "[Related Work Paper 1 Title]",
+        "authors": "[Authors et al.]",
+        "year": "2023",
+        "relevance": "[How this work relates to your research]"
       },
       {
-        "title": "ResNet: Deep Residual Learning",
-        "authors": "He et al.",
-        "year": "2016",
-        "relevance": "Backbone architecture for feature extraction"
+        "title": "[Related Work Paper 2 Title]",
+        "authors": "[Authors et al.]",
+        "year": "2023",
+        "relevance": "[How this work relates to your research]"
       }
     ]
   }

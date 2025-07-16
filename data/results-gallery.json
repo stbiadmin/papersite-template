@@ -1,51 +1,51 @@
 {
   "results": [
     {
-      "title": "Original vs Enhanced Comparison",
-      "description": "Side-by-side comparison showing the improvement achieved by our neural architecture on image classification tasks.",
+      "title": "[Result 1 Title]",
+      "description": "[Description of your first result or comparison.]",
       "src": "assets/images/result-comparison-1.jpg",
       "placeholder": "assets/images/placeholder-result-1.jpg",
-      "alt": "Comparison showing original image classification results versus enhanced results",
+      "alt": "[Alt text describing your first result image]",
       "category": "comparison"
     },
     {
-      "title": "Attention Mechanism Visualization",
-      "description": "Heatmap visualization demonstrating how our attention mechanism focuses on relevant image regions for improved accuracy.",
+      "title": "[Result 2 Title]",
+      "description": "[Description of your second result or visualization.]",
       "src": "assets/images/result-attention-viz.jpg",
       "placeholder": "assets/images/placeholder-result-2.jpg",
-      "alt": "Attention mechanism heatmap overlay on sample images",
+      "alt": "[Alt text describing your second result image]",
       "category": "visualization"
     },
     {
-      "title": "Performance Benchmarks",
-      "description": "Comprehensive performance comparison across multiple datasets showing consistent improvements in accuracy and efficiency.",
+      "title": "[Result 3 Title]",
+      "description": "[Description of your third result or benchmark.]",
       "src": "assets/images/result-benchmarks.jpg",
       "placeholder": "assets/images/placeholder-result-3.jpg",
-      "alt": "Bar charts and graphs showing performance benchmarks across different datasets",
+      "alt": "[Alt text describing your third result image]",
       "category": "metrics"
     },
     {
-      "title": "Real-world Application Results",
-      "description": "Examples of our method applied to real-world scenarios, demonstrating practical effectiveness and robustness.",
+      "title": "[Result 4 Title]",
+      "description": "[Description of your fourth result or application.]",
       "src": "assets/images/result-realworld.jpg",
       "placeholder": "assets/images/placeholder-result-4.jpg",
-      "alt": "Real-world application examples showing practical results",
+      "alt": "[Alt text describing your fourth result image]",
       "category": "application"
     },
     {
-      "title": "Architecture Diagram",
-      "description": "Detailed visualization of our novel neural architecture highlighting key components and data flow.",
+      "title": "[Result 5 Title]",
+      "description": "[Description of your fifth result or diagram.]",
       "src": "assets/images/result-architecture.jpg",
       "placeholder": "assets/images/placeholder-result-5.jpg",
-      "alt": "Neural network architecture diagram with labeled components",
+      "alt": "[Alt text describing your fifth result image]",
       "category": "technical"
     },
     {
-      "title": "Computational Efficiency Analysis",
-      "description": "Analysis showing 40% reduction in computational requirements while maintaining superior accuracy compared to baseline methods.",
+      "title": "[Result 6 Title]",
+      "description": "[Description of your sixth result or analysis.]",
       "src": "assets/images/result-efficiency.jpg",
       "placeholder": "assets/images/placeholder-result-6.jpg",
-      "alt": "Charts showing computational efficiency improvements and resource usage comparison",
+      "alt": "[Alt text describing your sixth result image]",
       "category": "metrics"
     }
   ]

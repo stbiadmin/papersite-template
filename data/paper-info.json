@@ -1,38 +1,38 @@
 {
-  "title": "Advanced Neural Architecture for Computer Vision Tasks",
-  "subtitle": "A novel approach to improving accuracy and efficiency in image recognition",
+  "title": "[Your Paper Title Here]",
+  "subtitle": "[Your Paper Subtitle Here]",
   "authors": [
     {
-      "name": "Dr. Sarah Chen",
-      "affiliation": "Stanford University",
-      "website": "https://example.com/sarah-chen",
-      "email": "sarah.chen@stanford.edu"
+      "name": "Dr. Alex Smith",
+      "affiliation": "Example University",
+      "website": "https://example.com/alex-smith",
+      "email": "alex.smith@example.edu"
     },
     {
-      "name": "Prof. Michael Rodriguez",
-      "affiliation": "MIT Computer Science",
-      "website": "https://example.com/michael-rodriguez",
-      "email": "mrodriguez@mit.edu"
+      "name": "Prof. Jordan Lee",
+      "affiliation": "Sample Institute of Technology",
+      "website": "https://example.com/jordan-lee",
+      "email": "jordan.lee@sample.edu"
     },
     {
-      "name": "Dr. Emily Watson",
-      "affiliation": "Stanford University",
+      "name": "Dr. Casey Johnson",
+      "affiliation": "Example University",
       "website": "",
-      "email": "emily.watson@stanford.edu"
+      "email": "casey.johnson@example.edu"
     }
   ],
-  "abstract": "We present a novel neural architecture that significantly improves performance on computer vision tasks while maintaining computational efficiency. Our approach combines attention mechanisms with hierarchical feature extraction to achieve state-of-the-art results on multiple benchmark datasets. The proposed method demonstrates superior accuracy compared to existing approaches while requiring 40% fewer computational resources during inference.",
-  "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
-  "publicationDate": "2024-12-15",
-  "doi": "10.1000/182",
-  "arxivId": "2024.12345",
+  "abstract": "[Replace with your paper's abstract. This section should provide a concise summary of your research contribution, methodology, and key results.]",
+  "venue": "[Conference Name or Journal]",
+  "publicationDate": "2024-03-15",
+  "doi": "[DOI if available]",
+  "arxivId": "[arXiv ID if available]",
   "pdfUrl": "https://example.com/paper.pdf",
   "codeUrl": "https://github.com/example/neural-architecture",
-  "bibtex": "@inproceedings{chen2024advanced,\n  title={Advanced Neural Architecture for Computer Vision Tasks},\n  author={Chen, Sarah and Rodriguez, Michael and Watson, Emily},\n  booktitle={Conference on Neural Information Processing Systems},\n  year={2024}\n}",
+  "bibtex": "@inproceedings{placeholder2024,\n  title={[Your Paper Title]},\n  author={[Author Names]},\n  booktitle={[Conference or Journal Name]},\n  year={2024}\n}",
   "keyContributions": [
-    "Novel attention-based neural architecture with 15% improved accuracy",
-    "40% reduction in computational requirements during inference",
-    "State-of-the-art results on ImageNet, CIFAR-10, and COCO datasets"
+    "[First key contribution of your research]",
+    "[Second key contribution of your research]",
+    "[Third key contribution of your research]"
   ],
   "datasetUrl": "https://example.com/dataset",
   "supplementaryUrl": "https://example.com/supplementary",
